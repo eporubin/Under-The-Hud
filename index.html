@@ -1,0 +1,624 @@
+<!--
+
+////THIS IS TEAM ALEAS PROJECT HTML DOCUMENT\\\\
+
+Team Members
+
+Luke
+Ana
+Elena
+Anthony
+
+Each member of the team has been allocated a section of code the will be responsible for.
+
+///Ana - Animated Characters section
+Ive added some extra notes to your section as it is probably the most difficult to implement, hopefully it makes sense.
+
+///Elena - Storyline implementation
+Ive allocated a section below for you to embed the widget.
+
+///Luke - Virtual tour
+Ive allocated a section below for you to embed the video once uploaded.
+
+Most of these sections have been preassigned have already discussed, however some additions have been made for some members.
+
+///Elena - Contact form
+This section needs coding, have you done a contact form before using php to send a feedback form from the browser to someones email?
+If not I can point you in the right direction for some good material to help produce one.
+
+///Luke - Socials
+Another task for you luke is to create all the social platforms across the board. This means creating a facebook page, instagram page and all the relevant social platforms.
+Once you've created all these socials you'll need to add the links to the appropriate places in this section.
+
+
+I hope all this makes sense!
+
+If you have any questions contact me :)
+
+Anthony
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Team Alea</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta charset="utf-8">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- <bootstrab css> -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Icon -->
+    <link rel="icon" type="image/png" href="img/logo.png"> <!-- ELENA: I have changed the logo as I find this more suitable-->
+
+    <!-- <fonts> -->
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+
+      <!-- owel carousel -->
+    <link href="css/owl.theme.default.min.css" rel="stylesheet">
+    <link href="css/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Font Icon Core CSS -->
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <!-- Style css -->
+    <link  rel="stylesheet" href="css/style.css">
+    
+    <!-- characters css -->
+    <link rel="stylesheet" type="text/css" href="css/characters.css">
+</head>
+
+<body class="classic-index">
+  
+      <!-- ========= start loading ========= -->
+        <div class="loading"><div class="spinner"></div></div>
+    <!-- ========= end loading ========= -->
+
+
+    <!-- =====================================
+    	==== Start main -->
+    <div class="main">
+
+    <!-- =====================================
+    	==== Start header -->
+      <header data-scroll-index="0">
+      
+            <!-- =====================================
+    	==== Start navbar -->
+      <nav class="navbar navbar-expand-lg">
+      
+          <div class="container">
+              <a class="navbar-brand" href="#">
+                  Under-The-Hud
+              </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="frs"></span>
+                  <span class="sec"></span>
+                  <span class="thr"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav">
+                  <li class="nav-item active">
+                      <a class="nav-link" href="#" data-scroll-nav="0">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#" data-scroll-nav="1">Characters</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#" data-scroll-nav="2">Storyline</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#" data-scroll-nav="3">Virtual Tour</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" data-scroll-nav="4">Google Map</a>
+                </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#" data-scroll-nav="5">360° Scene</a>
+                  </li>
+      
+                  <li class="nav-item">
+                      <a class="nav-link" href="#" data-scroll-nav="6">Contact</a>
+                  </li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+      <!-- =====================================
+        ==== end Loading -->
+        
+        <div class="overlay">
+        <div class="onclick" onClick="style.pointerEvents='none'"></div>
+        <iframe src="https://snazzymaps.com/embed/229976" width="100%" height="600px" style="border:none;"></iframe>
+        
+        
+        
+        </div>
+        <div class="container">
+          <div class="info-pr">
+            <!-- info about hero -->
+              <div class="info">
+                <h4>History According to Time</h4>
+                  <h1 class="cd-headline clip">
+                      <span class="cd-words-wrapper">
+                          <b class="is-visible">Your Educational Heritage</b>
+                          <b>University of Huddersfield</b>
+                          <b>Explore without limits</b>
+                      </span>
+                  </h1>
+                  <p><i>"Cultural heritage is a key part of history, Huddersfield University’s educational heritage needs to be persevered. Our mission is to create a digital platform allowing a modern approach to presenting cultural heritage information. Through a series of interactive web applications our aim is to create a centralised platform to preserve and explore the cultural heritage of the University of Huddersfield."</i></p>
+                  <a href="#0" class="butn butn-bg">
+                    <span>Discover more </span>
+                  </a>
+              </div>
+          </div>
+        </div>
+      </header>
+    <!-- =====================================
+      ==== end header -->
+  
+  
+  
+<!--/////////////////////////////////////////////////////////////////////////////////////////////////////////-->    
+
+
+
+    <!-- ================== START CHARACTERS (ANA) ================== -->
+<section class="about section-padding">
+
+        <div class="container">
+          <!-- header of section -->
+          <div class="section-head text-center" data-scroll-index="1">
+            <h2>Face to Face</h2>
+            <h6>Meet the people behind the buildings history</h6>
+          </div>
+
+          <!-- Container for gallery -->
+          <div class="container">
+          <div class="mySlides">
+          <div class="holder">
+
+            <div class="block1">
+                <!-- video -->
+                <video id="video4"> <source src="vid/comp4.mp4" type="video/mp4"> </video>
+                  </div>
+
+            <div class="block2">
+              <!-- paragraph -->
+                  <span class="navbar-brand-ana" href="#"> Harold Wilson </span><br>
+                    <p>Lord Wilson, was born on  the 11th of March of 1916, he was a former Prime Minister of the UK from 1964 to 1970 and 1974 to 1976. He stated ambition of substantially improving Britain`s long-term economic performance, using his asset of exceptional skills at statistics.  During his politics domination, he managed a number of difficult political issues, developing areas such as education, civil liberties, health, housing, transport, membership of the European Economic Community and war strategy.</p>
+                      <button onclick="play4()" type="button" class="butn butn-bg">Let me introduce myself</button>
+                          <script> var myVideo4 = document.getElementById("video4"); function play4() {if (myVideo4.paused) myVideo4.play(); else myVideo4.pause();} </script>
+                    </div>
+
+                <div class="numbertext">1 / 11 </div>
+              </div>
+          </div>
+
+
+          <div class="mySlides">
+          <div class="holder">
+
+            <div class="block1">
+                <!-- video -->
+                <video id="video5"> <source src="vid/comp5.mp4" type="video/mp4"> </video>
+                  </div>
+
+            <div class="block2">
+              <!-- paragraph -->
+                  <span class="navbar-brand-ana" href="#"> Caroline Haslett </span><br>
+                    <p>Caroline Haslett was an active pioneer of the idea that women are able to handle the engineering sector alongside with men, which was quite unappropriated in the early 20th century. She entered the engineering industry as a secretary, but managed to obtain qualification in both general and electrical engineering. She became the first secretary of the Women`s Engineering Society in 1919, and was the only women member on the 20-person committee convened by the IEE to examine the requirements for electrical installations in post-war Britain.</p>
+                      <button onclick="play5()" type="button" class="butn butn-bg">Let me introduce myself</button>
+                          <script> var myVideo5 = document.getElementById("video5"); function play5() {if (myVideo5.paused) myVideo5.play(); else myVideo5.pause();} </script>
+                    </div>
+
+                <div class="numbertext">2 / 11</div>
+              </div>
+          </div>
+
+
+          <div class="mySlides">
+          <div class="holder">
+
+            <div class="block1">
+                <!-- video -->
+                <video id="video10"> <source src="vid/comp10.mp4" type="video/mp4"> </video>
+                  </div>
+
+          <div class="block2">
+            <!-- paragraph -->
+                <span class="navbar-brand-ana" href="#"> Sir Patrick Steward </span><br>
+                  <p>Mirfield-born Sir Patrick is famous for his classic stage acting as well as roles on TV and movie blockbusters. He was a Chancellor of the University of Huddersfield from 2004 until 2015 year when he handed the role over to the Duke of York.</p><br>
+                    <button onclick="play10()" type="button" class="butn butn-bg">Let me introduce myself</button>
+                        <script> var myVideo10 = document.getElementById("video10"); function play10() {if (myVideo10.paused) myVideo10.play(); else myVideo10.pause();} </script>
+                  </div>
+
+              <div class="numbertext">3 / 11</div>
+            </div>
+        </div>
+
+        <div class="mySlides">
+        <div class="holder">
+
+          <div class="block1">
+              <!-- video -->
+              <video id="video11"> <source src="vid/comp11.mp4" type="video/mp4"> </video>
+                </div>
+
+        <div class="block2">
+          <!-- paragraph -->
+              <span class="navbar-brand-ana" href="#"> Karen Spark Jones </span><br>
+                <p>Born in 1935 Karen Spark Jones is a British Academy award winning figure. Born and raised in Huddersfield Karen dedicated her studies to computing, language information processing and information retrieval. Her researches and found techniques represented a key element on development of today’s technology. </p><br>
+                  <button onclick="play11()" type="button" class="butn butn-bg">Let me introduce myself</button>
+                      <script> var myVideo11 = document.getElementById("video11"); function play11() {if (myVideo11.paused) myVideo11.play(); else myVideo11.pause();} </script>
+                </div>
+
+            <div class="numbertext">4 / 11</div>
+          </div>
+      </div>
+
+
+          <div class="mySlides">
+            <div class="holder">
+
+              <div class="block1">
+
+                  <!-- video -->
+                  <video id="video1"> <source src="vid/comp1.mp4" type="video/mp4"> </video>
+                    </div>
+
+              <div class="block2">
+                <!-- paragraph -->
+                    <span class="navbar-brand-ana" href="#"> Barbara Hepword </span><br>
+                    <p>Barbara was a famous well accomplished British sculptor artist who focuses on modern art. Born in 1903 she was recognised at an international level, such acts where not very common in the early 1900’s due to women lacking recognition to their work. The artist as an art museum in Wakefield, city where she is from. The University of Huddersfield had the honour of naming a building after such a remarkable Yorkshire Icon.</p>
+                    <button onclick="playPause()" type="button" class="butn butn-bg">Let me introduce myself</button>
+                    <script> var myVideo = document.getElementById("video1"); function playPause() {if (myVideo.paused) myVideo.play(); else myVideo.pause();} </script>
+              </div>
+
+            <div class="numbertext">5 / 11</div>
+          </div>
+        </div>
+
+        <div class="mySlides">
+        <div class="holder">
+
+          <div class="block1">
+              <!-- video -->
+              <video id="video2"> <source src="vid/comp2.mp4" type="video/mp4"> </video>
+                </div>
+
+          <div class="block2">
+            <!-- paragraph -->
+                <span class="navbar-brand-ana" href="#"> Charles Sikes </span><br>
+                  <p>John Cockcroft was born into a cotton weaving family he would become the best-known scientist and engineer in Britain and a Nobel Prize winner. In the 1930s, as a researcher in Cambridge, his development of what is now known as the Cockcroft-Walton particle accelerator revolutionised experimental nuclear physics, producing the first artificial splitting of the atom, the discovery of the neutron, and many other breakthroughs.</p>
+                    <button onclick="play()" type="button" class="butn butn-bg">Let me introduce myself</button>
+                        <script> var myVideo2 = document.getElementById("video2"); function play() {if (myVideo2.paused) myVideo2.play(); else myVideo2.pause();} </script>
+                  </div>
+
+              <div class="numbertext">6 / 11</div>
+            </div>
+        </div>
+
+        <div class="mySlides">
+        <div class="holder">
+
+          <div class="block1">
+              <!-- video -->
+              <video id="video3"> <source src="vid/comp3.mp4" type="video/mp4"> </video>
+                </div>
+
+          <div class="block2">
+            <!-- paragraph -->
+                <span class="navbar-brand-ana" href="#"> Edith Key </span><br>
+                  <p>Born in 1872, Edith was an outstanding local campaigner for female suffrage. Her involvement and interest in radical politics drew her to Independent Labor Party, where her active participation alongside her husband led her to became the secretary – organizer of the Huddersfield branch of the Women`s Social and politicalunion formed in 1906. Her accurate notes about record survives of her period of local suffragist history in the form of her minutes
+                     book provide a valuable insight into how braches interacted with the WSPU.</p>
+                    <button onclick="play3()" type="button" class="butn butn-bg">Let me introduce myself</button>
+                        <script> var myVideo3 = document.getElementById("video3"); function play3() {if (myVideo3.paused) myVideo3.play(); else myVideo3.pause();} </script>
+                  </div>
+
+              <div class="numbertext">7 / 11</div>
+            </div>
+        </div>
+
+
+        <div class="mySlides">
+        <div class="holder">
+
+          <div class="block1">
+              <!-- video -->
+              <video id="video6"> <source src="vid/comp6.mp4" type="video/mp4"> </video>
+                </div>
+
+          <div class="block2">
+            <!-- paragraph -->
+                <span class="navbar-brand-ana" href="#"> Joseph Priestley </span><br>
+                  <p>Born in 1733, Priestley was an 18th century English Separatist theologian, natural philosopher, chemist, innovative grammarian, multi – subject educator, and liberal theorist. His scientific reputation rests on his invention of soda water, his research on electricity and his discovery of “several air” which nowadays is known as oxygen.Unfortunately, his determination over the fact that oxygen is the main component in the burning process was controverting. Eventually he was left isolated within the scientific community.</p>
+                    <button onclick="play6()" type="button" class="butn butn-bg">Let me introduce myself</button>
+                        <script> var myVideo6 = document.getElementById("video6"); function play6() {if (myVideo6.paused) myVideo6.play(); else myVideo6.pause();} </script>
+                  </div>
+
+              <div class="numbertext">8 / 11</div>
+            </div>
+        </div>
+
+        <div class="mySlides">
+        <div class="holder">
+
+          <div class="block1">
+              <!-- video -->
+              <video id="video7"> <source src="vid/comp7.mp4" type="video/mp4"> </video>
+                </div>
+
+          <div class="block2">
+            <!-- paragraph -->
+                <span class="navbar-brand-ana" href="#"> Richard Oastler </span><br>
+                  <p>Born in 1789 Oastler was a commission agent, after completing ten years on his field Richard was nominated as steward for Thomas Thornill, the absentee landlord of fixby, an estate near Huddersfield. In 1830 Oastler became familiar with the currently and very poor structure of the factory legislation and made a mission of his to improve the same,so the people would have a more dignified live. His previous connections with the tory party represented an advantage during this
+                     fight. After overcoming great obstacles finally in 1847 Oastler saw his efforts being paid off with the 1847 Factory Act being passed by the parliament. Under such regulation woman and children are not work more then 10h per day and 58 hours a week within the textile industry. In 1867 the Act was applying to all manufacturing businesses within the UK.</p>
+                    <button onclick="play7()" type="button" class="butn butn-bg">Let me introduce myself</button>
+                        <script> var myVideo7 = document.getElementById("video7"); function play7() {if (myVideo7.paused) myVideo7.play(); else myVideo7.pause();} </script>
+                  </div>
+
+              <div class="numbertext">9 / 11</div>
+            </div>
+        </div>
+
+        <div class="mySlides">
+        <div class="holder">
+
+          <div class="block1">
+              <!-- video -->
+              <video id="video8"> <source src="vid/comp8.mp4" type="video/mp4"> </video>
+                </div>
+
+        <div class="block2">
+          <!-- paragraph -->
+              <span class="navbar-brand-ana" href="#"> Sir John William Ramsden </span><br>
+                <p>Born in 1831 Sir John was a successful politician, who has also served as a High Sheriff of Yorkshire. In Huddersfield he owned a large amount of estates and land. With the aim of developing Huddersfield local mechanics and tradesmen in scientific principles, in 1883 the Scientific and Mechanics Institution was built in Huddersfield with Ramsden being its Patron. </p><br>
+                  <button onclick="play8()" type="button" class="butn butn-bg">Let me introduce myself</button>
+                      <script> var myVideo8 = document.getElementById("video8"); function play8() {if (myVideo8.paused) myVideo8.play(); else myVideo8.pause();} </script>
+                </div>
+
+            <div class="numbertext">10 / 11</div>
+          </div>
+      </div>
+
+      <div class="mySlides">
+      <div class="holder">
+
+        <div class="block1">
+            <!-- video -->
+            <video id="video9"> <source src="vid/comp9.mp4" type="video/mp4"> </video>
+              </div>
+
+      <div class="block2">
+        <!-- paragraph -->
+            <span class="navbar-brand-ana" href="#"> Richard Steinitz </span><br>
+              <p>Born in 1938 Professor Richard Steinitz, is a modern-day composer and shared his expertise as a professor at the University of Huddersfield. </p><br>
+                <button onclick="play9()" type="button" class="butn butn-bg">Let me introduce myself</button>
+                    <script> var myVideo9 = document.getElementById("video9"); function play9() {if (myVideo9.paused) myVideo9.play(); else myVideo9.pause();} </script>
+              </div>
+
+          <div class="numbertext">11 / 11</div>
+        </div>
+    </div>
+
+
+
+
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        </div>
+
+        </section>
+    <!-- ================== END CHARACTERS (ANA)================== -->
+
+
+
+
+
+
+
+
+    <!-- ================== START STORYLINE (ELENA)================== -->
+      <section class="services section-padding" data-scroll-index="2">
+        <div class="container-fluid">
+          <!-- header of section -->
+          <div class="section-head text-center">
+            <h2>History According to Time</h2>
+            <h6>STORYLINE</h6>
+          </div>
+          <!-- START CONTENT SECTION -->
+            <div class="row">
+            <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=19oe2F02jicspbZTvTEJq6VHC4yGXMwjFvL-Rxjs1Yr8&font=Default&lang=en&initial_zoom=2&height=650'
+             width='100%' height='650px' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'>
+            </iframe>
+            </div>
+          <!-- END CONTENT SECTION -->
+        </div>
+      </section>
+    <!-- ================== END STORYLINE (ELENA)================== -->
+
+
+
+    <!-- ================== START VIRTUAL TOUR (LUKE)================== -->
+      <section class="portfolio section-padding" data-scroll-index="3">
+        <div class="container-fluid">
+          <!-- header of section -->
+          <div class="section-head text-center">
+            <h2>Virtual Tour</h2>
+            <h6>VIRTUAL TOUR SECTION</h6>
+          </div>
+          <!-- START CONTENT SECTION -->
+          <div class="row items">
+          ##VIRTUAL TOUR EMBEDDING CONTENT HERE##
+          </div>
+          <!-- END CONTENT SECTION -->
+        </div>
+      </section>
+    <!-- ================== END VIRTUAL TOUR (LUKE)================== -->
+
+    <!-- ================== Google Map Interactive (ELENA)================== -->
+    <section class="services section-padding" data-scroll-index="4">
+      <div class="container-fluid">
+        <!-- header of section -->
+        <div class="section-head text-center">
+          <h2>Where is your Deparment?</h2>
+          <h6>Our Google MAP</h6>
+        </div>
+        <!-- START CONTENT SECTION -->
+          <iframe src="https://www.google.com/maps/d/embed?mid=1mnvmcdk6no_uJ1pOBILONr6Mz7cjS6LY" width="100%" height="550px"></iframe> 
+          </div>
+        <!-- END CONTENT SECTION -->
+      </div>
+    </section>
+  <!-- ================== END STORYLINE (ELENA)================== -->
+
+    <!-- ================== START 360° SCENE (ANT)================== -->
+      <section class="blog section-padding" data-scroll-index="5">
+        <div class="container">
+          <!-- header of section -->
+        <div class="section-head text-center">
+          <h2>360° Scene</h2>
+          <h6>360° SCENE SECTION</h6>
+          </div>
+          <!-- START CONTENT SECTION -->
+          <div class="row">
+          ##360° SCENE EMBEDDING CONTENT HERE##
+          </div>
+      </section>
+	<!-- ================== END 360° SCENE (ANT)================== -->
+      
+
+
+	<!-- ================== START CONTACT (ELENA)================== -E) I added the form.php file and all needed to make it work--> 
+      <section class="contact section-padding text-center" data-scroll-index="6">
+        <div class="container">
+          <!-- header of section -->
+          <div class="section-head text-center">
+            <h2>Contact</h2>
+            <h6>Get In Touch</h6>
+          </div>
+
+          <!-- contact form -->
+          <form method="post" name="contact_form" action="form-contact-handler.php">
+            <div class="form-group">
+              <input name="name" id="name" type="text" required placeholder="Name">
+            </div>
+            <div class="form-group">
+              <input name="email" id="email" type="text" required placeholder="Email">
+            </div>
+            <div class="form-group">
+              <textarea name="message" id="message" required placeholder="Message"></textarea>
+            </div>
+
+            <!--<a href="#0" class="butn butn-bg">-->
+                <input type="submit"  class="butn butn-bg" value="SUBMIT">
+           <!--</a>--> 
+          </form>
+
+
+        </div>
+      </section>
+
+      <!--JavaScript to make to validate the field from our form-->
+   
+
+	<!-- ================== END CONTACT (ELENA)================== -->
+
+
+
+	<!-- ================== START SOCIALS (LUKE)================== -->
+      <footer>
+        <div class="overlay"></div>
+        <div class="container-fluid text-center">
+          <!-- contact info -->
+          <div class="row contact-info">
+            <div class="col-md-4">
+              <div class="item">
+                <span><i class="fas fa-mobile-alt"></i></span>
+                <p>[CONTACT NUMBER]</p>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="item">
+                  <span><i class="fas fa-envelope"></i></span>
+                  <p>aleateam@outlook.com</p>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="item">
+                  <span><i class="fas fa-location-arrow"></i></span>
+                  <p>University of Huddersfield</p>
+                </div>
+              </div>
+          </div>
+
+          <div class="foot">
+            <!-- === social-icons === -->
+            <div class="social-icon">
+                <a href="#0">
+                  <span><i class="fab fa-facebook-f" aria-hidden="true"></i></span>
+                </a>
+                <a href="#0">
+                  <span><i class="fab fa-twitter" aria-hidden="true"></i></span>
+                </a>
+                <a href="#0">
+                  <span><i class="fab fa-behance" aria-hidden="true"></i></span>
+                </a>
+                <a href="#0">
+                  <span><i class="fab fa-linkedin-in" aria-hidden="true"></i></span>
+                </a>
+            </div>
+            <p>© 2020 Team Alea. ALL RIGHTS RESERVED.</p>
+          </div>
+        </div>
+      </footer>
+	<!-- ================== END SOCIALS (LUKE)================== -->
+
+    </div>
+    <!--======== jquery ==========-->
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/jquery-migrate-3.0.0.min.js"></script>
+
+
+    <!-- animated.headline js -->
+    <script src="js/animated.headline.js"></script>
+
+    <!--======== mixitup ==========-->
+    <script src="js/mixitup.min.js"></script>
+
+    <!-- owel carousel -->
+    <script src="js/owl.carousel.min.js"></script>
+
+    <!-- scrollIt -->
+    <script src="js/scrollIt.min.js"></script>
+    
+    <!--======== bootstrab ==========-->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!--======== main js ==========-->
+    <script src="js/main.js"></script>
+    
+    <!--======== Animated Characters js ==========-->
+    <script src="js/characters.js"></script>
+    <script language=”JavaScript”>
+
+      var frmvalidator = new Validator("contactform"); 
+      frmvalidator.addValidation("name","req","Please provide your name"); 
+      frmvalidator.addValidation("email","req","Please provide your email");
+       frmvalidator.addValidation("email","email", "Please enter a valid email address"); 
+    </script>
+</body>
+</html>
